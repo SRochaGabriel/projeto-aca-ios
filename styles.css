@@ -7,7 +7,7 @@
 }
 
 header, footer { /* Definindo para HEADER e FOOTER uma cor de fundo (provisória) e padding de 1% */
-    background-color: #80a7a7;
+    background-color: #9ba570;
     padding: 1%;
 }
 
@@ -22,6 +22,10 @@ footer { /* Definições para o FOOTER */
 
 footer section { /* Definições exclusivas para as SECTION que estão no rodapé */
     margin: 20px;
+}
+
+footer p {
+    margin: 10px;
 }
 
 .nav_links { /* Definições para os links de navegação */
