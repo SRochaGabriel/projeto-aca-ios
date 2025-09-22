@@ -1,0 +1,39 @@
+main { /* Definições para o MAIN */
+    padding: 50px;
+    background-color: rgb(42, 60, 110);
+}
+
+h2 { /* Alinhamento central para os subtítulos de categoria dos cursos */
+    text-align: center;
+}
+
+a { /* Removendo decoração de texto dos links*/
+    text-decoration: none;
+}
+
+.margem_para_textos { /* Utilizando essa classe para definir uma pequena margem para os elementos H3 e P de cada card */
+    margin: 5px;
+}
+
+.categorias, a { /* Definição de margem de 25px para os links que são os cards de curso e para as áreas divididas por categoria*/
+    margin: 25px;
+}
+
+.cursos_display { /* Definições para as sessões com classe "cursos_display". Aqui é criada uma FlexBox */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card_curso { /* Definições para os cards que exibem cada curso */
+    box-shadow: 0 0 3px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.capa_curso { /* Definições para a imagem de capa de cada curso */
+    width: 400px;
+    border-radius: inherit;
+    margin: 5px;
+}
+
