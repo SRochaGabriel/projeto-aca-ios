@@ -4,6 +4,16 @@
     margin-bottom: 25px;
 }
 
+.em_breve { /* Seção com a imagem que indica que um curso novo está chegando */
+    width: 100%;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.placeholder_em_breve { /* Imagem que indica um curso novo */
+    width: 50em;
+}
+
 /* Margem inferior para o parágrafo na seção de introdução do curso */
 .intro_curso {
     margin-bottom: 10px;
