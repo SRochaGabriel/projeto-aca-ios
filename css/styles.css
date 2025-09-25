@@ -4,12 +4,17 @@
 * {
     margin: 0%;
     font-family: sans-serif;
-    color: white;
+    color: rgb(255, 255, 255);
+}
+
+main { /* Definições para o MAIN */
+    padding: 50px;
+    background-color: #254253;
 }
 
 header, footer { /* Definindo para HEADER e FOOTER uma cor de fundo (provisória) e padding de 1% */
     background-color: #5289a8;
-    padding: 1%;
+    padding: 25px;
 }
 
 footer { /* Definições para o FOOTER */
@@ -24,15 +29,18 @@ footer p {
     margin: 10px;
 }
 
-.nav_links { /* Definições para os links de navegação */
+a { /* Removendo decoração de texto de todos os links*/
     text-decoration: none;
+}
+
+.nav_links { /* Definições para os links de navegação */
     color: rgb(36, 33, 33);
     font-size: 20px;
     margin: 10px;
 }
 
 .logo_link { /* Configurando o logotipo que fica na barra de navegação para 10% de width */
-    width: 10%;
+    width: 175px;
 }
 
 .socials_logo { /* Configurando os logotipos de redes sociais do rodapé para */

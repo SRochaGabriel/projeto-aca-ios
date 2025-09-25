@@ -1,0 +1,42 @@
+/* Definições de margem, borda e padding para as seções de classe info_inicial, sumario e modulos */
+.info_inicial, .sumario, .modulos {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+/* Margem inferior para o parágrafo na seção de introdução do curso */
+.intro_curso {
+    margin-bottom: 10px;
+}
+
+/* Definições para que o texto dentro da tag Summary se assemelhe a um h2 */
+summary {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/* Definindo tipo para lista não-ordenada */
+ul {
+    list-style-type: disc;
+}
+
+/* Definições para a tag de vídeo */
+video {
+    width: 800px;
+    border-radius: 10px;
+}
+
+/* Container com vídeo-aulas */
+.aula_container {
+    padding: 15px;
+}
+
+/* Definições para os links que levam para as seções de módulos e para os links de download de materiais */
+.modulo_link, .download_material {
+    color: rgb(129, 228, 253);
+}
+
+/* Definições para os links de materiais e parágrafos que resumem o tópico do módulo */
+.download_material, .sinopse_modulo {
+    margin: 15px;
+}
