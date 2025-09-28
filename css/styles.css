@@ -9,10 +9,18 @@
     color: rgb(255, 255, 255);
 }
 
+html { /* Deixando a rolagem da página com animação suave ao clicar em um link do sumário */
+    scroll-behavior: smooth;
+}
+
 main { /* Definições para o MAIN */
     padding-top: 2em;
     padding-bottom: 2em;
     background-color: #254253;
+}
+
+h1 { /* Definição para o título principal */
+    padding: 0 1em;
 }
 
 header, footer { /* Definindo para HEADER e FOOTER uma cor de fundo (provisória) e padding que servirá somente para o HEADER */

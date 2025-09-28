@@ -1,7 +1,3 @@
-h1 { /* Definição para o título principal */
-    padding-left: 1em;
-}
-
 h2 { /* Alinhamento central para os subtítulos de categoria dos cursos */
     text-align: center;
 }
@@ -21,7 +17,7 @@ h2 { /* Alinhamento central para os subtítulos de categoria dos cursos */
 }
 
 .card_curso { /* Definições para os cards que exibem cada curso */
-    box-shadow: 0 0 3px;
+    box-shadow: 0 0 10px #011722;
     border-radius: 10px;
     padding: 10px;
     width: 20em;

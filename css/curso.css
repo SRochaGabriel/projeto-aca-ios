@@ -1,11 +1,3 @@
-html { /* Deixando a rolagem da página com animação suave ao clicar em um link do sumário */
-    scroll-behavior: smooth;
-}
-
-h1 { /* Definição para o título principal */
-    padding-left: 1em;
-}
-
 /* Definições de margem, borda e padding para as seções de classe info_inicial, sumario e modulos */
 .info_inicial, .sumario, .modulos {
     padding: 2em;
