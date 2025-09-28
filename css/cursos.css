@@ -1,3 +1,7 @@
+h1 { /* Definição para o título principal */
+    padding-left: 1em;
+}
+
 h2 { /* Alinhamento central para os subtítulos de categoria dos cursos */
     text-align: center;
 }
@@ -20,7 +24,7 @@ h2 { /* Alinhamento central para os subtítulos de categoria dos cursos */
     box-shadow: 0 0 3px;
     border-radius: 10px;
     padding: 10px;
-    width: 30em;
+    width: 20em;
 }
 
 .card_curso:hover { /* Altera a cor de fundo do card quando o usuário passa com o mouse em cima */
@@ -28,7 +32,7 @@ h2 { /* Alinhamento central para os subtítulos de categoria dos cursos */
 }
 
 .capa_curso { /* Definições para a imagem de capa de cada curso */
-    width: 100%;
+    max-width: 100%;
     border-radius: inherit;
 }
 
