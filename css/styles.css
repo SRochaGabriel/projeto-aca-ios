@@ -1,11 +1,16 @@
 /* OBSERVAÇÃO: Esse arquivo deve conter os estilos CSS que serão comuns à todas as páginas, estilos mais específicos serão desenvolvidos em outros arquivos. */
 
+/* Importando fonte */
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
 /* Removendo todas as margens e definindo um estilo de fonte sans-serif */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     color: rgb(255, 255, 255);
 }
 
@@ -16,7 +21,7 @@ html { /* Deixando a rolagem da página com animação suave ao clicar em um lin
 main { /* Definições para o MAIN */
     padding-top: 2em;
     padding-bottom: 2em;
-    background-color: #254253;
+    background-color: #0A1A2F;
 }
 
 h1 { /* Definição para o título principal */
@@ -24,7 +29,7 @@ h1 { /* Definição para o título principal */
 }
 
 header, footer { /* Definindo para HEADER e FOOTER uma cor de fundo (provisória) e padding que servirá somente para o HEADER */
-    background-color: #5289a8;
+    background-color: #123456;
     padding: 1em;
 }
 
@@ -46,7 +51,7 @@ a { /* Removendo decoração de texto de todos os links*/
 }
 
 .nav_links { /* Definições para os links de navegação */
-    color: rgb(36, 33, 33);
+    color: #0ddaff;
     font-size: 1.3em;
     margin: 10px;
 }
@@ -59,4 +64,8 @@ a { /* Removendo decoração de texto de todos os links*/
     width: 2em;
     margin-top: 5px;
     margin-bottom: 5px;
+}
+
+.destaque { /* Cor destacada para palavra dentro de um span */
+    color: #0ddaff;
 }

@@ -13,7 +13,7 @@
 .placeholder_em_breve { /* Imagem que indica um curso novo */
     max-width: 100%;
     border-radius: 10px;
-    box-shadow: 0 0 10px #011722;
+    box-shadow: 0 0 15px #0ddaff;
 }
 
 /* Margem inferior para o parágrafo na seção de introdução do curso */
@@ -24,8 +24,6 @@
 /* Definições para que o texto dentro da tag Summary que identifica cada módulo se assemelhe a um h2 */
 .titulo_modulo {
     font-size: 1.5em;
-    font-weight: bold;
-    cursor: pointer;
 }
 
 /* Definindo tipo para lista não-ordenada */
@@ -46,7 +44,7 @@ ol ul { /* Margem esquerda específica para a lista não-ordenada que está dent
     /* Abaixo, em WIDTH, fica definido que a WIDTH do vídeo sempre será o que representar o menor valor entre 50em ou 100% de width */
     width: min(50em, 100%);
     margin: 1em;
-    background-color: #011722;
+    background-color: #0f2541;
     border-radius: 10px;
 }
 
@@ -58,20 +56,20 @@ video {
 }
 
 .aula_container_header { /* Definições para o header do container que exibe as aulas */
-    background-color: #12232c;
+    background-color: #123456;
     border-radius: 10px 10px 0 0;
     padding: 1em;
 }
 
 .aula_container_footer { /* Definições para o footer do container que exibe as aulas */
-    background-color: #12232c;
+    background-color: #123456;
     border-radius: 0 0 10px 10px;
     padding: 1em;
 }
 
 /* Definições para os links que levam para as seções de módulos e para os links de download de materiais */
 .modulo_link, .download_material {
-    color: rgb(129, 228, 253);
+    color: #0ddaff;
 }
 
 /* Definições para os links de materiais e parágrafos que resumem o tópico do módulo */

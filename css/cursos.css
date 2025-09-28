@@ -17,18 +17,19 @@ h2 { /* Alinhamento central para os subtítulos de categoria dos cursos */
 }
 
 .card_curso { /* Definições para os cards que exibem cada curso */
-    box-shadow: 0 0 10px #011722;
-    border-radius: 10px;
-    padding: 10px;
+    box-shadow: 0 0 15px #0ddaff;
+    border-radius: 50px 20px;
+    padding: 1em;
     width: 20em;
 }
 
-.card_curso:hover { /* Altera a cor de fundo do card quando o usuário passa com o mouse em cima */
-    background-color: #162630;
+/* Amplia o box-shadow quando o usuário passa com o mouse em cima, com efeito ease-in-out de transição que dura 0.2s */
+.card_curso:hover {
+    box-shadow: 0 0 25px #0ddaff;
+    transition: box-shadow 0.2s ease-in-out;
 }
 
 .capa_curso { /* Definições para a imagem de capa de cada curso */
     max-width: 100%;
-    border-radius: inherit;
+    border-radius: 50px 20px 20px 20px;
 }
-

@@ -1,0 +1,29 @@
+.display { /* Margem da seção display */
+    margin: 2em;
+}
+
+.card { /* Configurando o card como um grid de duas colunas */
+    display: grid;
+    grid-template-columns: min-content auto;
+    grid-template-areas: 'cover info';
+    grid-gap: 1em;
+    margin: 1em 0;
+}
+
+.card img { /* Configurando a imagem do card */
+    width: 25em;
+    border-radius: 10px;
+    grid-area: cover;
+}
+
+.card_info { /* Configurando a parte de informações do card */
+    grid-area: info;
+}
+
+.card_info p { /* Configurando os itens parágrafos do card */
+    margin: 1em 0;
+}
+
+.data_post { /* Configurando a cor do elemento que mostrará a data da postagem */
+    color: rgb(211, 211, 211);
+}

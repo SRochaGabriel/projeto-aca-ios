@@ -1,0 +1,43 @@
+h1 { /* Alinhando centralmente o título do post */
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+h2 {
+    margin: 1em 0;
+}
+
+.header_post, .conteudo_post { /* Definições para as duas seções do post */
+    margin: 1em;
+    width: min(60em, 90%);
+    justify-self: center;
+}
+
+.header_post img { /* Definições para a imagem de capa */
+    max-width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Definição de margem inferior para os principais textos da postagem */
+.conteudo_texto {
+    margin-bottom: 1em;
+}
+
+.data_postagem { /* Definições sobre o parágrafo que exibe a data da postagem */
+    font-size: 0.9em;
+    margin-bottom: 1em;
+}
+
+.autor { /* Destacando o nome do autor da postagem */
+    color: #58c7ff;
+}
+
+li { /* Margem esquerda para itens de lista */
+    margin-left: 1em;
+}
+
+.destaque_negrito { /* Classe para span que deve ficar em negrito */
+    font-weight: bold;
+}
