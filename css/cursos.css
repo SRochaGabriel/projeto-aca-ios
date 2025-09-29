@@ -20,13 +20,13 @@ h2 { /* Alinhamento central para os subtítulos de categoria dos cursos */
     box-shadow: 0 0 15px #0ddaff;
     border-radius: 50px 20px;
     padding: 1em;
-    width: 20em;
+    width: 30em;
+    transition: box-shadow 0.2s ease-in-out; /* Definindo que a transição do box-shadow terá efeito ease-in-out e durará 0.2 segundos */
 }
 
-/* Amplia o box-shadow quando o usuário passa com o mouse em cima, com efeito ease-in-out de transição que dura 0.2s */
+/* Amplia o box-shadow quando o usuário passa com o mouse em cima */
 .card_curso:hover {
     box-shadow: 0 0 25px #0ddaff;
-    transition: box-shadow 0.2s ease-in-out;
 }
 
 .capa_curso { /* Definições para a imagem de capa de cada curso */
