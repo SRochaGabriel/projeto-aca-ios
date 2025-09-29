@@ -2,22 +2,24 @@
     margin: 2em;
 }
 
-.card { /* Configurando o card como um grid de duas colunas */
-    display: grid;
-    grid-template-columns: min-content auto;
-    grid-template-areas: 'cover info';
-    grid-gap: 1em;
+.card { /* Configurando o card como um flexbox */
     margin: 1em 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em; /* Outra forma de separar os elementos do flex sem precisar de margem */
 }
 
-.card img { /* Configurando a imagem do card */
-    width: 25em;
-    border-radius: 10px;
-    grid-area: cover;
+.cover_container { /* Definição de width para o elemento A que contém a capa da postagem */
+    width: 30em;
 }
 
-.card_info { /* Configurando a parte de informações do card */
-    grid-area: info;
+.cover_container img { /* Definição para a imagem da capa em si */
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+.card_info { /* Definição para a seção do CARD que contém as informações da postagem */
+    width: 50em;
 }
 
 .card_info p { /* Configurando os itens parágrafos do card */
