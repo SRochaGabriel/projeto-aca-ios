@@ -24,6 +24,7 @@
 /* Definições para que o texto dentro da tag Summary que identifica cada módulo se assemelhe a um h2 */
 .titulo_modulo {
     font-size: 1.5em;
+    cursor: pointer;
 }
 
 /* Definindo tipo para lista não-ordenada */

@@ -22,6 +22,18 @@ h2 { /* Alinhamento central para os subtítulos de categoria dos cursos */
     padding: 1em;
     width: 30em;
     transition: box-shadow 0.2s ease-in-out; /* Definindo que a transição do box-shadow terá efeito ease-in-out e durará 0.2 segundos */
+    max-height: fit-content; /* Utilizando esse atributo para garantir que só o card com hover vai exibir a .card_info */
+}
+
+.card_info { /* Seção de cada card que vai conter uma breve descrição do curso */
+    max-height: 0;
+    overflow: hidden;
+    margin: 0.3em;
+    transition: max-height 1s ease-in-out;
+}
+
+.card_curso:hover .card_info { /* Exibir a seção .card_info e fazer crescer o .card_curso com hover do mouse */
+    max-height: 250px;
 }
 
 /* Amplia o box-shadow quando o usuário passa com o mouse em cima */
