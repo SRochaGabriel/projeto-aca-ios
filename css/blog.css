@@ -19,7 +19,7 @@
 }
 
 .card_blog p { /* Definições para o parágrafo dentro do card */
-    color: rgb(201, 201, 201);
+    color: #c9c9c9;
     margin: 5px 0;
     font-size: 14px;
 }
@@ -43,14 +43,20 @@
     padding: 1em;
     border-radius: 20px;
     border-bottom: 5px solid #0ddaff;
-    transition: box-shadow 0.2s ease-in-out; /* Definindo que o box-shadow terá transição ease-in-out que durará 0.2 segundos */
+    transition: box-shadow 0.2s ease-in-out, color 0.2s ease-in-out; /* Definindo que o box-shadow terá transição ease-in-out que durará 0.2 segundos */
 }
 
-/* Abaixo fica definido que, ao passar com o mouse em cima */
+/* Abaixo fica definido que, ao passar com o mouse em cima dos links das categorias dentro do NAV, eles mudam sua cor e recebem um box-shadow */
 .categorias_blog a:hover {
     box-shadow: 0 0 10px #0ddaff;
+    color: #ffffff;
 }
 
 .title_link { /* Definições para os links que também servem de título das seções */
     font-size: 1.5em;
+}
+
+.title_link:hover { /* Altera cor dos links das categorias ao passar com o mouse em cima */
+    color: #72a2ce;
+    transition: color 0.2s ease-in-out;
 }

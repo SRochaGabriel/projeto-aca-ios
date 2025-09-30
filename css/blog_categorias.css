@@ -29,3 +29,8 @@
 .data_post { /* Configurando a cor do elemento que mostrará a data da postagem */
     color: rgb(211, 211, 211);
 }
+
+h1 a:hover {
+    color: #72a2ce;
+    transition: color 0.2s ease-in-out;
+}

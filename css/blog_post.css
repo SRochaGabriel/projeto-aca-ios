@@ -7,6 +7,15 @@ h2 {
     margin: 1em 0;
 }
 
+.link_categoria {
+    color: #0ddaff;
+}
+
+.link_categoria:hover {
+    color: #ffffff;
+    transition: color 0.2s ease-in-out;
+}
+
 .header_post, .conteudo_post { /* Definições para as duas seções do post */
     margin: 1em;
     width: min(60em, 90%);

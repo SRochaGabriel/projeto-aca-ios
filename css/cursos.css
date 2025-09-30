@@ -33,7 +33,7 @@ h2 { /* Alinhamento central para os subtítulos de categoria dos cursos */
 }
 
 .card_curso:hover .card_info { /* Exibir a seção .card_info e fazer crescer o .card_curso com hover do mouse */
-    max-height: 250px;
+    max-height: 300px;
 }
 
 /* Amplia o box-shadow quando o usuário passa com o mouse em cima */

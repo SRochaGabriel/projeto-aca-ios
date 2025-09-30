@@ -54,6 +54,11 @@ a { /* Removendo decoração de texto de todos os links*/
     color: #0ddaff;
     font-size: 1.3em;
     margin: 10px;
+    transition: color 0.2s ease-in-out;
+}
+
+.nav_links:hover { /* Altera a cor dos links da navbar ao passar com o mouse */
+    color: #ffffff;
 }
 
 .logo_link { /* Configurando o logotipo que fica na barra de navegação */
