@@ -5,7 +5,7 @@
 
 .em_breve { /* Seção com a imagem que indica que um curso novo está chegando */
     /* Abaixo, em WIDTH, fica definido que a WIDTH do vídeo sempre será o que representar o menor valor entre 50em ou 100% de width */
-    width: min(50em, 95%);
+    width: min(50em, 90%);
     margin-top: 25px;
     justify-self: center;
 }
@@ -44,7 +44,7 @@ ol ul { /* Margem esquerda específica para a lista não-ordenada que está dent
 .aula_container {
     /* Abaixo, em WIDTH, fica definido que a WIDTH do vídeo sempre será o que representar o menor valor entre 50em ou 100% de width */
     width: min(50em, 100%);
-    margin: 1em;
+    margin: 1em 0;
     background-color: #0f2541;
     border-radius: 10px;
 }

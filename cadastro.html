@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="imagens/favicon.ico">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/login.css">
     <title>Academia do Código Aberto</title>
 </head>
 <body>
@@ -23,7 +24,34 @@
     </header>
 
     <main> <!-- Conteúdo principal -->
+        <h1>Cadastre-se</h1>
 
+        <section class="display">
+            <form action="">
+                <div class="container_infos">
+                    <label class="label_big" for="nome">Primeiro nome</label>
+                    <input class="input_digitacao" type="text" name="nome" id="nome" placeholder="Digite seu primeiro nome">
+
+                    <label class="label_big" for="sobrenome">Sobrenome</label>
+                    <input class="input_digitacao" type="text" name="sobrenome" id="sobrenome" placeholder="Digite seu sobrenome">
+                    
+                    <label class="label_big" for="username">Nome de usuário</label>
+
+                    <label class="label_big" for="email">E-mail</label>
+                    <input class="input_digitacao" type="email" name="email" id="email" placeholder="Digite seu E-mail">
+
+                    <label class="label_big" for="senha">Senha</label>
+                    <input class="input_digitacao" type="password" id="senha" placeholder="Defina sua senha">
+
+                    <input type="checkbox" name="termo_e_politica" id="termo_e_politica">
+                    <label id="label_termo" for="termo_e_politica">Eu li e concordo com os <a class="links_form" href="">Termos de Uso</a> e a <a class="links_form" href="">Política de privacidade do cliente</a>.</label>
+                </div>
+
+                <input id="submit" type="submit" value="Cadastrar">
+
+                <a href="login.html" class="links_form">Já tenho uma conta</a>
+            </form>
+        </section>
     </main>
 
     <footer> <!-- Rodapé -->

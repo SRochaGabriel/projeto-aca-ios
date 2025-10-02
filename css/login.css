@@ -1,0 +1,71 @@
+ /* Definindo a seção que contém o formulário com padding e alinhamento horizontal central */
+.display {
+    padding: 3em 1em;
+    justify-items: center;
+}
+
+/* Definindo o formulário como um flexbox que dispõe os itens verticalmente */
+form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 3em;
+    padding: 3em;
+    background-color: #123456;
+    box-shadow: 0 0 5px #0ddaff;
+    border-radius: 50px 20px;
+    width: min(30em, 100%);
+}
+
+/* Definindo para os labels dos campos de texto do formulário um tamanho de 1.2em, seu display como block e uma margem inferior para separá-lo do input */
+.label_big {
+    font-size: 1.2em;
+}
+
+/* Definições gerais para os inputs */
+input {
+    border-radius: 5px;
+    border: 0;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+/* Definindo display block e margem vertical para os inputs que são campos de digitação */
+.input_digitacao {
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+/* Definições para o botão de enviar/cadastrar */
+#submit {
+    background-color: #0A1A2F;
+    border-radius: 50px;
+    padding: 15px;
+    font-size: 1.2em;
+    cursor: pointer;
+    color: #0ddaff;
+    transition: color 0.2s ease-in-out;
+    width: 8em;
+}
+
+/* Definindo o container que contém os links de "esqueci a senha" e "cadastrar" como uma flexbox de direção vertical */
+.container_links {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 5px;
+}
+
+/* Definições para os links de "esqueci a senha" e "cadastrar" */
+.links_form {
+    color: #0ddaff;
+    transition: color 0.2s ease-in-out;
+}
+
+/* Ao passar com o mouse em cima dos links inferiores e do botão de enviar/cadastrar, a cor do texto muda */
+#submit:hover, .links_form:hover {
+    color: #fff;
+}

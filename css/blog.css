@@ -33,7 +33,7 @@
 .categorias_blog { /* Definições para a NAV com as categorias do blog */
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     padding: 1.5em;
 }
 
@@ -54,9 +54,9 @@
 
 .title_link { /* Definições para os links que também servem de título das seções */
     font-size: 1.5em;
+    transition: color 0.2s ease-in-out;
 }
 
 .title_link:hover { /* Altera cor dos links das categorias ao passar com o mouse em cima */
     color: #72a2ce;
-    transition: color 0.2s ease-in-out;
 }

@@ -17,7 +17,7 @@ h2 { /* Alinhamento central para os subtítulos de categoria dos cursos */
 }
 
 .card_curso { /* Definições para os cards que exibem cada curso */
-    box-shadow: 0 0 15px #0ddaff;
+    box-shadow: 0 0 5px #0ddaff;
     border-radius: 50px 20px;
     padding: 1em;
     width: 30em;
@@ -38,7 +38,7 @@ h2 { /* Alinhamento central para os subtítulos de categoria dos cursos */
 
 /* Amplia o box-shadow quando o usuário passa com o mouse em cima */
 .card_curso:hover {
-    box-shadow: 0 0 25px #0ddaff;
+    box-shadow: 0 0 20px #0ddaff;
 }
 
 .capa_curso { /* Definições para a imagem de capa de cada curso */

@@ -28,14 +28,13 @@ h1 { /* Definição para o título principal */
     padding: 0 1em;
 }
 
-header, footer { /* Definindo para HEADER e FOOTER uma cor de fundo (provisória) e padding que servirá somente para o HEADER */
+header, footer { /* Definindo para HEADER e FOOTER uma cor de fundo e padding que servirá somente para o HEADER */
     background-color: #123456;
     padding: 1em;
 }
 
 footer { /* Definições exclusivas para o FOOTER */
     text-align: center;
-    padding: 1px;
 }
 
 footer section { /* Definições exclusivas para as SECTION que estão no rodapé */
@@ -67,8 +66,7 @@ a { /* Removendo decoração de texto de todos os links*/
 
 .socials_logo { /* Configurando os logotipos de redes sociais do rodapé para */
     width: 2em;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin: 5px 0;
 }
 
 .destaque { /* Cor destacada para palavra dentro de um span */
