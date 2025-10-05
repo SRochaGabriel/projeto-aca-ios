@@ -1,7 +1,17 @@
  /* Definindo a seção que contém o formulário com padding e alinhamento horizontal central */
 .display {
     padding: 3em 1em;
-    justify-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 1em;
+}
+
+/* Definições para a imagem que fica ao lado do formulário de login na página de login */
+.display img {
+    width: min(30em, 100%);
+    border-radius: 50px 20px;
+    box-shadow: 0 0 5px #0ddaff;
 }
 
 /* Definindo o formulário como um flexbox que dispõe os itens verticalmente */
@@ -15,6 +25,7 @@ form {
     box-shadow: 0 0 5px #0ddaff;
     border-radius: 50px 20px;
     width: min(30em, 100%);
+    height: fit-content;
 }
 
 /* Definindo para os labels dos campos de texto do formulário um tamanho de 1.2em, seu display como block e uma margem inferior para separá-lo do input */
