@@ -3,16 +3,18 @@ h1 { /* Alinhando centralmente o título do post */
     margin-bottom: 15px;
 }
 
-h2 {
+h2 { /* Margem vertical ao H2 */
     margin: 1em 0;
 }
 
-.link_categoria {
+.link_categoria { /* Cor do link que indica a categoria do blog em que o post se encaixa*/
     color: #0ddaff;
 }
 
+/* Comportamento do link que indica a categoria ao passar do mouse */
 .link_categoria:hover {
     color: #ffffff;
+    text-decoration: underline;
     transition: color 0.2s ease-in-out;
 }
 
