@@ -6,6 +6,8 @@
     <link rel="icon" type="image/x-icon" href="imagens/favicon.ico">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/formularios.css">
+    <!-- Importando ícones do boxicons -->
+    <link rel='stylesheet' href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
     <title>Academia do Código Aberto</title>
 </head>
 <body>
@@ -27,21 +29,29 @@
         <h1>Faça login</h1>
 
         <section class="display">
-            <form action="" method="post">
-                <div class="container_infos">
-                    <label class="label_big" for="email">E-mail</label>
-                    <input class="input_digitacao" type="email" name="email" id="email" placeholder="Insira o E-mail">
+            <form action="#" method="post">
+                <div class="container_input">
+                    <label for="email" class="label_big">E-mail</label>
+                    <input type="email" required id="email" placeholder="Insira o E-mail">
+                </div>
 
-                    <label class="label_big" for="senha">Senha</label>
-                    <input class="input_digitacao label" type="password" name="senha" id="senha" placeholder="Insira sua senha">
+                <div class="container_input">
+                    <label for="senha" class="label_big">Senha</label>
+                    <input type="password" required id="senha" placeholder="Insira sua senha">
+                    <i class="bx bxs-lock"></i> <!-- Ícone de olho -->
+                </div>
+                
+                <div class="container_checkbox">
+                    <label>
+                        <input type="checkbox"> Lembre de mim
+                    </label>
+
+                    <a href="#" class="links_form">Esqueci minha senha</a>
                 </div>
 
                 <input id="submit" type="submit" value="Entrar">
 
-                <div class="container_links">
-                    <a href="" class="links_form">Esqueci minha senha</a>
-                    <p>Não tem uma conta? <a href="cadastro.html" class="links_form">Cadastre-se</a></p>
-                </div>
+                <p>Não tem uma conta? <a href="cadastro.html" class="links_form">Cadastre-se</a></p>
             </form>
 
             <img src="imagens/banner-login.png" alt="Banner de informações sobre o cadastro">

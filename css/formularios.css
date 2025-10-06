@@ -1,10 +1,10 @@
  /* Definindo a seção que contém o formulário com padding e alinhamento horizontal central */
 .display {
-    padding: 3em 1em;
+    padding: 1em;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    gap: 1em;
+    justify-content: center;
+    gap: 1em 10em;
 }
 
 /* Definições para a imagem que fica ao lado do formulário de login na página de login */
@@ -19,7 +19,6 @@ form {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    gap: 3em;
     padding: 3em;
     background-color: #123456;
     box-shadow: 0 0 5px #0ddaff;
@@ -28,55 +27,73 @@ form {
     height: fit-content;
 }
 
-/* Definindo para os labels dos campos de texto do formulário um tamanho de 1.2em, seu display como block e uma margem inferior para separá-lo do input */
+/* Definindo para os labels dos campos de texto do formulário um tamanho de 1.2em */
 .label_big {
     font-size: 1.2em;
 }
 
-/* Definições gerais para os inputs */
-input {
-    border-radius: 5px;
-    border: 0;
-    padding: 10px;
-    margin-bottom: 10px;
-    color: #000;
-}
-
-/* Definindo display block e margem vertical para os inputs que são campos de digitação */
-.input_digitacao {
-    display: block;
+/* Definições para os containers que contém os inputs */
+.container_input {
+    position: relative;
     width: 100%;
+    margin-bottom: 0.8em;
+}
+
+/* Definições para os inputs de texto que estão dentro das divs CONTAINER_INPUT */
+.container_input input {
+    width: 100%;
+    border: none;
+    outline: none;
+    color: #333;
+    padding: 1.2em;
     margin-top: 5px;
-    margin-bottom: 15px;
-}
-
-/* Definições para o botão de enviar/cadastrar */
-#submit {
-    background-color: #0A1A2F;
     border-radius: 50px;
-    padding: 15px;
-    font-size: 1.2em;
-    cursor: pointer;
-    color: #0ddaff;
-    transition: color 0.2s ease-in-out;
-    width: 8em;
 }
 
-/* Definindo o container que contém os links de "esqueci a senha" e "cadastrar" como uma flexbox de direção vertical */
-.container_links {
+/* Definições para o ícone de olho no input de senha */
+.container_input i {
+    color: #0A1A2F;
+    position: absolute;
+    font-size: 1.5em;
+    right: 5%;
+    top: 55%;
+    cursor: pointer;
+}
+
+/* Definindo o container que contém um checkbox 'Lembre de mim' e um link 'Esqueci minha senha' como um flexbox */
+.container_checkbox {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
-    gap: 5px;
+    gap: 1em;
+    justify-content: space-between;
 }
 
-/* Definições para os links de "esqueci a senha" e "cadastrar" */
-.links_form {
+/* Botão de entrar/cadastrar */
+#submit {
+    background-color: #0A1A2F;
     color: #0ddaff;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.2em;
+    padding: 15px;
+    margin: 2em 0;
+    cursor: pointer;
+}
+
+/* Comportamento do botão de entrar/cadastrar ao passar do mouse */
+#submit:hover {
+    color: #fff;
     transition: color 0.2s ease-in-out;
 }
 
-/* Ao passar com o mouse em cima dos links inferiores e do botão de enviar/cadastrar, a cor do texto muda */
-#submit:hover, .links_form:hover {
+/* Definição para links como 'Esqueci minha senha', 'Cadastre-se', 'Termo de uso', 'Política de privacidade' */
+.links_form {
+    color: #0ddaff;
+}
+
+/* Comportamento dos links ao passar do mouse */
+.links_form:hover {
     color: #fff;
+    text-decoration: underline;
+    transition: color 0.2s ease-in-out;
 }
