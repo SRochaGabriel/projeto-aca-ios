@@ -72,3 +72,7 @@ a { /* Removendo decoração de texto de todos os links*/
 .destaque { /* Cor destacada para palavra dentro de um span */
     color: #0ddaff;
 }
+
+hr { /* Alterando cor da linha que divide as seções */
+    border: 1px solid #123456;
+}
