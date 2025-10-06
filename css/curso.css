@@ -73,12 +73,14 @@ video {
     color: #0ddaff;
 }
 
+/* Comportamento dos links de módulo e do link de download de material complementar ao passar o mouse */
 .modulo_link:hover, .download_material:hover {
     color: #ffffff;
+    text-decoration: underline;
     transition: color 0.2s ease-in-out;
 }
 
 /* Definições para os links de materiais e parágrafos que resumem o tópico do módulo */
-.download_material, .sinopse_modulo {
-    margin: 1em;
+.sinopse_modulo, .aula_container {
+    margin: 1em 2em;
 }
