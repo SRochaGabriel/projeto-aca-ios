@@ -68,6 +68,11 @@ form {
     justify-content: space-between;
 }
 
+/* Garantindo que o cursor irá indicar que os inputs de checkbox são clicáveis */
+.container_checkbox label, .container_checkbox input {
+    cursor: pointer;
+}
+
 /* Botão de entrar/cadastrar */
 #submit {
     background-color: #0A1A2F;
