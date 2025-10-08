@@ -20,7 +20,7 @@ h2 { /* Margem vertical ao H2 */
 
 .header_post, .conteudo_post { /* Definições para as duas seções do post */
     margin: 1em;
-    width: min(60em, 90%);
+    width: min(50em, 90%);
     justify-self: center;
 }
 
