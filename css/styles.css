@@ -1,7 +1,7 @@
 /* OBSERVAÇÃO: Esse arquivo deve conter os estilos CSS que serão comuns à todas as páginas, estilos mais específicos serão desenvolvidos em outros arquivos. */
 
 /* Importando fonte */
-@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Questrial&display=swap');
 
 /* Removendo todas as margens e definindo um estilo de fonte sans-serif */
 * {
@@ -12,6 +12,14 @@
     font-weight: 400;
     font-style: normal;
     color: rgb(255, 255, 255);
+}
+
+/* Definição geral da fonte Questrial para todas as páginas */
+main p, main li {
+    font-family: "Questrial", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2em;
 }
 
 html { /* Deixando a rolagem da página com animação suave ao clicar em um link do sumário */

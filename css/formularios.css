@@ -1,4 +1,7 @@
- /* Definindo a seção que contém o formulário com padding e alinhamento horizontal central */
+/* Importando fonte */
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+/* Definindo a seção que contém o formulário com padding e alinhamento horizontal central */
 .display {
     padding: 1em;
     display: flex;
@@ -48,6 +51,8 @@ form {
     padding: 1.2em;
     margin-top: 5px;
     border-radius: 50px;
+    font-family: "Questrial", sans-serif;
+    font-size: 1.1em;
 }
 
 /* Definições para o ícone de olho no input de senha */
@@ -68,9 +73,11 @@ form {
     justify-content: space-between;
 }
 
-/* Garantindo que o cursor irá indicar que os inputs de checkbox são clicáveis */
-.container_checkbox label, .container_checkbox input {
+/* Definições para os itens do container_checkbox */
+.container_checkbox label, .container_checkbox input, .container_checkbox a {
     cursor: pointer;
+    font-family: "Questrial", sans-serif;
+    font-size: 1.1em;
 }
 
 /* Botão de entrar/cadastrar */
@@ -94,6 +101,8 @@ form {
 /* Definição para links como 'Esqueci minha senha', 'Cadastre-se', 'Termo de uso', 'Política de privacidade' */
 .links_form {
     color: #0ddaff;
+    font-family: "Questrial", sans-serif;
+    font-size: 1em;
 }
 
 /* Comportamento dos links ao passar do mouse */

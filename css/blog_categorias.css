@@ -30,7 +30,8 @@
     color: rgb(211, 211, 211);
 }
 
+/* Comportando do título principal durante hover */
 h1 a:hover {
-    color: #86bcee;
+    color: #58c7ff;
     transition: color 0.2s ease-in-out;
 }

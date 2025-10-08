@@ -7,12 +7,12 @@ h2 { /* Margem vertical ao H2 */
     margin: 1em 0;
 }
 
-.link_categoria { /* Cor do link que indica a categoria do blog em que o post se encaixa*/
+.header_post a { /* Cor do link que indica a categoria do blog em que o post se encaixa*/
     color: #0ddaff;
 }
 
 /* Comportamento do link que indica a categoria ao passar do mouse */
-.link_categoria:hover {
+.header_post a:hover {
     color: #ffffff;
     text-decoration: underline;
     transition: color 0.2s ease-in-out;
@@ -31,9 +31,18 @@ h2 { /* Margem vertical ao H2 */
     border-radius: 10px;
 }
 
+.header_post span { /* Destacando o nome do autor da postagem */
+    color: #58c7ff;
+}
+
 /* Definição de margem inferior para os principais textos da postagem */
 .conteudo_texto {
     margin-bottom: 1em;
+}
+
+/* Definições para os spans que ficam dentro de elementos da classe conteudo_texto */
+.conteudo_texto span {
+    font-weight: bold;
 }
 
 .data_postagem { /* Definições sobre o parágrafo que exibe a data da postagem */
@@ -41,14 +50,12 @@ h2 { /* Margem vertical ao H2 */
     margin-bottom: 1em;
 }
 
-.autor { /* Destacando o nome do autor da postagem */
-    color: #58c7ff;
-}
-
 li { /* Margem esquerda para itens de lista */
     margin-left: 1em;
 }
 
-.destaque_negrito { /* Classe para span que deve ficar em negrito */
-    font-weight: bold;
+/* Definindo fonte para elementos span da página */
+span {
+    font-family: "Questrial", sans-serif;
+    font-style: normal;
 }
