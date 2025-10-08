@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="imagens/favicon.ico">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/cursos.css">
+    <link rel="stylesheet" href="css/index.css">
     <title>Academia do Código Aberto</title>
 </head>
 <body>
@@ -23,54 +25,93 @@
 
     <main> <!-- Conteúdo principal -->
         <!-- Seção inicial da página inicial -->
-        <section>
-            <h1>Bem-vindo à Academia do Código Aberto</h1>
+        <section class="bem-vindo">
+            <div class="conteudo_secao">
+                <h1>Bem-vindo à Academia do Código Aberto</h1>
+                
+                <p>Na Academia de Código Aberto, você encontra diversos <span class="destaque">cursos</span>, <span class="destaque">tutoriais</span> e <span class="destaque">conteúdos sobre tecnologia</span> totalmente <span class="destaque">gratuitos</span>, feitos para espalhar conhecimento livre.</p>
 
-            <div class="container_secao">
-                <div class="conteudo_secao">
-                    <p>Na Academia de Código Aberto, você encontra diversos <span class="destaque">cursos</span>, <span class="destaque">tutoriais</span> e <span class="destaque">conteúdos sobre tecnologia</span> totalmente <span class="destaque">gratuitos</span>, feitos para espalhar conhecimento livre.</p>
-                </div>
-
-                <div class="img_secao">
-                    <img src="" alt="Imagem ilustrativa do site">
-                </div>
+                <a href="sobre.html" class="botao_link">Veja mais sobre nós</a>
             </div>
         </section>
+        <hr>
 
         <!-- Seção de cursos da página inicial -->
-        <section>
-            <h1>Nossos cursos mais populares</h1>
+        <section class="cursos">
+            <div class="conteudo_secao">
+                <h1>Nossos cursos mais populares</h1>
 
-            <div class="container_secao">
-                <p>
-                    Quer aprender sobre algum tópico específico? Embarque de cabeça nos nossos cursos!
-                </p>
+                <div class="cursos_display">
+                    <a href="paginas-cursos/curso_html5.html" class="card_curso">
+                        <div>
+                            <img class="capa_curso" src="imagens/banner-html.jpg" alt="Capa do curso de HTML5">
+                            <h3 class="margem_para_textos">Crie páginas na Web com <span class="destaque">HTML5</span></h3>
+                            <p class="margem_para_textos">Duração: 20 horas</p>
+                        </div>
 
-                <div class="card_container">
-                    <div class="cards"></div>
+                        <div class="card_info">
+                            <p>
+                                Neste curso de HTML5 você vai aprender, passo a passo, a construir páginas web completas. Do básico ao avançado, exploramos desde a estrutura fundamental de um documento até os recursos mais modernos da linguagem, garantindo que você domine a base para criar sites bem estruturados, acessíveis e prontos para a web atual.
+                            </p>
+                        </div>
+                    </a>
 
-                    <div class="btn">
-                        <a href="cursos.html">Veja todos os cursos</a>
-                    </div>
+                    <a href="paginas-cursos/curso_css3.html" class="card_curso">
+                        <div>
+                            <img class="capa_curso" src="imagens/banner-css.jpg" alt="Capa do curso de CSS3">
+                            <h3 class="margem_para_textos">Aprenda a estilizar páginas com <span class="destaque">CSS3</span></h3>
+                            <p class="margem_para_textos">Duração: 40 horas</p>
+                        </div>
+
+                        <div class="card_info">
+                            <p>
+                                Aprenda a transformar estruturas simples em páginas visualmente modernas e funcionais. Partindo dos fundamentos de estilos até recursos avançados como layout responsivo, grid, flexbox e efeitos animados, você terá domínio para criar interfaces bem organizadas, elegantes e preparadas para os desafios da web atual.
+                            </p>
+                        </div>
+                    </a>
+
+                    <a href="paginas-cursos/curso_javascript.html" class="card_curso">
+                        <div>
+                            <img class="capa_curso" src="imagens/banner-js.jpg" alt="Capa do curso de JS">
+                            <h3 class="margem_para_textos">Dinamize suas páginas com <span class="destaque">Javascript</span></h3>
+                            <p class="margem_para_textos">Duração: 40 horas</p>
+                        </div>
+
+                        <div class="card_info">
+                            <p>
+                                Neste curso de JavaScript você vai aprender a dar vida às suas páginas web com interatividade e lógica de programação. Do essencial ao avançado, exploramos variáveis, funções, eventos, manipulação de DOM e recursos modernos da linguagem, preparando você para criar aplicações dinâmicas e eficientes.
+                            </p>
+                        </div>
+                    </a>
+
+                    <a href="paginas-cursos/curso_python.html" class="card_curso">
+                        <div>
+                            <img class="capa_curso" src="imagens/banner-python.jpg" alt="Capa do curso de Python">
+                            <h3 class="margem_para_textos">Programação com <span class="destaque">Python</span></h3>
+                            <p class="margem_para_textos">Duração: 40 horas</p>
+                        </div>
+
+                        <div class="card_info">
+                            <p>
+                                Conheça uma das linguagens mais versáteis e poderosas da atualidade. Desde os conceitos básicos de sintaxe até bibliotecas avançadas, você aprenderá a desenvolver aplicações, automatizar tarefas e trabalhar com dados, tornando-se apto a atuar em diversas áreas da tecnologia.
+                            </p>
+                        </div>
+                    </a>
                 </div>
+
+                <a href="cursos.html" class="botao_link">Veja todos os cursos</a>
             </div>
         </section>
+        <hr>
 
         <!-- Seção do blog da página inicial -->
-        <section>
-            <h1>Quer ler sobre tecnologia?</h1>
+        <section class="blog">
+            <div class="conteudo_secao">
+                <h1>Quer ler sobre tecnologia?</h1>
 
-            <div class="container_secao">
-                <div class="conteudo_secao">
-                    <p>Quer ler textos, tutoriais e artigos sobre tecnologia? Visite o nosso blog</p>
-                    <div class="btn">
-                        <a href="blog.html">Acesse o blog</a>
-                    </div>
-                </div>
+                <p>Visite o nosso blog e veja <span class="destaque">artigos</span>, <span class="destaque">notícias</span> e <span class="destaque">tutoriais</span> sobre tecnologia.</p>
 
-                <div class="img_secao">
-                    <img src="" alt="Imagem ilustrativa do site">
-                </div>
+                <a href="blog.html" class="botao_link">Acesse o blog</a>
             </div>
         </section>
     </main>

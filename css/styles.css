@@ -27,8 +27,7 @@ html { /* Deixando a rolagem da página com animação suave ao clicar em um lin
 }
 
 main { /* Definições para o MAIN */
-    padding-top: 2em;
-    padding-bottom: 2em;
+    padding: 1em 0 1em 0;
     background-color: #0A1A2F;
 }
 
