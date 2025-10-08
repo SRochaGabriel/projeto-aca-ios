@@ -10,7 +10,7 @@
 }
 
 .cover_container { /* Definição de width para o elemento A que contém a capa da postagem */
-    width: 30em;
+    width: 25em;
 }
 
 .cover_container img { /* Definição para a imagem da capa em si */

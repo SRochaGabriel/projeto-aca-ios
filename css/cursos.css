@@ -20,7 +20,7 @@ h2 { /* Alinhamento central para os subtítulos de categoria dos cursos */
     box-shadow: 0 0 5px #0ddaff;
     border-radius: 50px 20px;
     padding: 1em;
-    width: 30em;
+    width: 20em;
     transition: box-shadow 0.2s ease-in-out; /* Definindo que a transição do box-shadow terá efeito ease-in-out e durará 0.2 segundos */
     max-height: fit-content; /* Utilizando esse atributo para garantir que só o card com hover vai exibir a .card_info */
 }
