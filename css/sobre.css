@@ -25,10 +25,11 @@ div li {
 /* Classe span para destacar os contatos */
 .contato_info {
     color: #0ddaff;
+    cursor: pointer;
 }
 
 /* Comportamento ao passar o mouse em cima do link de um contato */
-li a:hover span {
+li .contato_info:hover{
     color: #fff;
     text-decoration: underline;
 }
