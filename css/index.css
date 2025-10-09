@@ -38,7 +38,7 @@ main section {
 /* Definições para a seção BEM-VINDO */
 .bem-vindo, .blog {
     background-image: url(https://images.pexels.com/photos/1089440/pexels-photo-1089440.jpeg);
-    background-color: #080808;
+    background-color: #0c0c0c;
     background-position: center;
     background-size: cover;
     /* Misturando a imagem de fundo com a cor de fundo para criar um efeito de escurecimento na imagem */
