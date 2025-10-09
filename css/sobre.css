@@ -57,3 +57,7 @@ span {
     color: #fff;
     transition: color 0.2s ease-in-out;
 }
+
+i {
+    color: #0ddaff;
+}
