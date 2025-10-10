@@ -68,7 +68,7 @@ a { /* Removendo decoração de texto de todos os links*/
 }
 
 .logo_link { /* Configurando o logotipo que fica na barra de navegação */
-    width: 8.5em
+    width: 8.5em;
 }
 
 .socials_logo { /* Configurando os logotipos de redes sociais do rodapé para */
