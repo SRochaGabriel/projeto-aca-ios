@@ -50,12 +50,22 @@ main section {
     background-image: url(https://images.pexels.com/photos/1181681/pexels-photo-1181681.jpeg);
 }
 
+/* Definições para o título da seção de cursos */
 .cursos .conteudo_secao h1 {
     align-self: center;
 }
 
+/* Alinhamento para o botão da seção de cursos */
 .cursos .conteudo_secao .botao_link {
     align-self: flex-end;
+}
+
+/* Em telas menores de 769px, o botão da seção de cursos fica centralizado */
+@media(max-width:768px) {
+    /* Alinhamento para o botão da seção de cursos */
+    .cursos .conteudo_secao .botao_link {
+        align-self: center;
+    }
 }
 
 /* Definições para os itens span dentro das seções BEM-VINDO e BLOG */
