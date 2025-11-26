@@ -1,4 +1,6 @@
 # Descrição:
 A Academia do Código Aberto é um site conceitual para uma plataforma de cursos e artigos sobre tecnologia e programação totalmente gratuita.
 
-Projeto desenvolvido no IOS, 2025.
+O site foi feito com HTML e CSS vanilla.
+
+Projeto desenvolvido no Instituto da Oportunidade Social, 2025.
